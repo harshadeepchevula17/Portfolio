@@ -572,8 +572,7 @@ export function About() {
 
   useEffect(() => {
     const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    const isMobile = window.innerWidth < 768;
-    setWebgl(hasWebGL() && !reduceMotion && !isMobile);
+    setWebgl(hasWebGL() && !reduceMotion);
   }, []);
 
   useEffect(() => {
