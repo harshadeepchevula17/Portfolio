@@ -27,7 +27,7 @@ Required variables:
 
 ```env
 FRONTEND_URL=http://localhost:8082
-VITE_API_URL=/api/contact
+
 MAIL_USER=your-email@gmail.com
 MAIL_APP_PASSWORD=your-gmail-app-password
 MAIL_TO=your-recipient@example.com
